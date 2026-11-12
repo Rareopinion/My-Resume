@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dona Benny | Resume</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Noto+Sans+Devanagari:wght@400;700&family=Noto+Sans+Malayalam:wght@400;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Hidden checkbox: the "Dark mode" button in the bar toggles it, and the CSS does the rest -->
+  <input type="checkbox" id="theme-toggle" class="theme-check" aria-label="Dark mode">
+
+  <!-- Opening: name types out, then the dark curtain lifts. Pure CSS. -->
+  <div class="veil" aria-hidden="true">
+    <p class="veil-name">Dona Benny</p>
+  </div>
+
+  <!-- Navigation -->
+  <header id="top-bar">
+    <div class="wrap nav-inner">
+      <a href="#about" class="logo">Dona Benny</a>
+      <label class="theme-btn" for="theme-toggle"><span class="to-dark">Dark mode</span><span class="to-light">Light mode</span></label>
+      <nav aria-label="Sections">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="progress"></div>
+  </header>
+
+  <main>
+
+    <!-- Intro -->
+    <section id="about" class="wrap hero">
+      <div class="hero-text">
+        <p class="hello">
+          <span class="greetings">
+            <span lang="en">Hello, I'm</span>
+            <span lang="ml">നമസ്കാരം, ഞാൻ</span>
+            <span lang="hi">नमस्ते, मैं</span>
+          </span>
+          <span class="dots" aria-hidden="true"><i></i><i></i><i></i></span>
+        </p>
+        <h1 class="rise" style="--d: 2.45s">Dona Benny</h1>
+        <p class="lede rise" style="--d: 2.6s">BBA student at IIM Bangalore.</p>
+        <ul class="facts rise" style="--d: 2.75s">
+          <li>Kochi, Kerala, India</li>
+          <li>Age 19</li>
+          <li>BBA, Digital Business &amp; Entrepreneurship</li>
+        </ul>
+        <div class="buttons rise" style="--d: 2.9s">
+          <a class="btn btn-solid" href="#experience">See my experience</a>
+          <a class="btn btn-outline" href="#contact">Get in touch</a>
+        </div>
+      </div>
+
+      <div class="portrait rise" style="--d: 2.6s">
+        <img src="photo.jpg" width="600" height="800" alt="Dona Benny">
+      </div>
+    </section>
+
+    <!-- Path so far -->
+    <section class="wrap path" aria-labelledby="path-title">
+      <h4 id="path-title">My path so far</h4>
+      <ol class="steps">
+        <li>
+          <span class="step-tag">Class 10</span>
+          <span class="step-text">Navajeevan Bethany Vidyalaya, Trivandrum</span>
+        </li>
+        <li>
+          <span class="step-tag">Class 12</span>
+          <span class="step-text">Greets Public School, Kochi</span>
+        </li>
+        <li class="now">
+          <span class="step-tag">BBA, 1st year</span>
+          <span class="step-text">IIM Bangalore</span>
+        </li>
+        <li>
+          <span class="step-tag">Intern, Sep 2026</span>
+          <span class="step-text">STEP D, Kochi</span>
+        </li>
+      </ol>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="wrap">
+      <h2>Experience</h2>
+      <div class="entry">
+        <h3>Business Development Associate Intern</h3>
+        <p class="meta">STEP D, Kochi &middot; September 2026 &middot; 1 month</p>
+        <ul class="bullets">
+          <li>Segmented travel customers in groups (honeymooners, friend groups, families, corporate groups) and developed package ideas focusing on what appealed to their different interests.</li>
+          <li>Customized travel packages that included Bali as a priority destination, organizing the trips and including additional services according to the traveler profiles.</li>
+          <li>Established the range of prices (basic, average, premium) in order to let the customers pick the one matching their expectations and budget.</li>
+          <li>Offered additional services and upgrades to individual travelers and groups, increasing the booking value.</li>
+          <li>Presented the travel packages to the prospects, responded to their questions and concerns and finalized the cooperation.</li>
+          <li>Gained a comprehensive understanding of the end-to-end process of sales in a start-up company, learning the ways of engaging the customer and influencing the purchase decision.</li>
+        </ul>
+      </div>
+
+      <div class="work-notes">
+        <div class="note">
+          <h4>Who I built packages for</h4>
+          <ul class="chips">
+            <li>Honeymooners</li>
+            <li>Friend groups</li>
+            <li>Families</li>
+            <li>Corporate groups</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="reflection">
+        <h4>What I took from it</h4>
+        <!-- Rewrite this in your own words. It's the most personal part of the page. -->
+        <p>
+          I joined as a fresher and learned fast that a good offer starts with
+          knowing who you're selling to. A honeymoon couple and a corporate group
+          want very different things, so one package never fits everyone. Pitching
+          to prospects meant answering their questions on the spot, and setting
+          price ranges and add-ons showed me how much those choices shape what
+          people decide to buy.
+        </p>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="wrap">
+      <h2>Education</h2>
+
+      <div class="entry">
+        <h3>BBA, Digital Business &amp; Entrepreneurship</h3>
+        <p class="meta">IIM Bangalore &middot; Currently in 1st year</p>
+      </div>
+
+      <div class="entry">
+        <h3>Class 12, CBSE</h3>
+        <p class="meta">Greets Public School, Kochi, Kerala</p>
+        <div class="mark" aria-label="88 percent">
+          <div class="mark-bar" style="--pct: 88%"><span></span></div>
+          <p class="mark-num">88%</p>
+        </div>
+        <p class="subjects">English, Maths, Physics, Chemistry, Computer Science, Physical Activity Trainer</p>
+      </div>
+
+      <div class="entry">
+        <h3>Class 10, CBSE</h3>
+        <p class="meta">Navajeevan Bethany Vidyalaya, Trivandrum, Kerala</p>
+        <div class="mark" aria-label="89 percent">
+          <div class="mark-bar" style="--pct: 89%"><span></span></div>
+          <p class="mark-num">89%</p>
+        </div>
+        <p class="subjects">English, Maths, Science, Social Science, Computer Science, Malayalam</p>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="wrap">
+      <h2>Skills</h2>
+      <div class="card-row">
+        <div class="card">
+          <h3>Technical</h3>
+          <ul class="chips">
+            <li>Python</li>
+            <li>SQL</li>
+            <li>Excel</li>
+            <li>Google Sheets</li>
+            <li>HTML &amp; CSS</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Business</h3>
+          <ul class="chips">
+            <li>Business development</li>
+            <li>Client follow-up</li>
+            <li>Customer segmentation</li>
+            <li>Basic market research</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Languages</h3>
+          <ul class="chips">
+            <li>English</li>
+            <li>Malayalam</li>
+            <li>Hindi</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="wrap">
+      <h2>Contact</h2>
+      <p class="contact-intro">You can reach me by email or on LinkedIn.</p>
+      <p class="email-line">donabenny247@gmail.com</p>
+      <p class="contact-link"><a href="https://www.linkedin.com/in/donabenny24777" target="_blank" rel="noopener">www.linkedin.com/in/donabenny24777</a></p>
+      <div class="buttons">
+        <a class="btn btn-solid" href="https://www.linkedin.com/in/donabenny24777" target="_blank" rel="noopener">Open my LinkedIn</a>
+        <a class="btn btn-outline" href="mailto:donabenny247@gmail.com">Write an email</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <p>Made by Dona Benny, Kochi</p>
+    </div>
+  </footer>
+
+  <a class="to-top" href="#about" aria-label="Back to top">&uarr;</a>
+
+</body>
+</html>
